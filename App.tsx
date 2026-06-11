@@ -1,10 +1,14 @@
 import React from 'react';
-import { Stylesheet, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 function App() {
-  return <View></View>;
+  return (
+    <View>
+      <Text>Matzip</Text>
+    </View>
+  );
 }
 
-const styles = Stylesheet.create({});
+const styles = StyleSheet.create({});
 
 export default App;
