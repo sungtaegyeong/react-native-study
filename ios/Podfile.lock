@@ -1431,6 +1431,8 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
+  - react-native-vector-icons-fontawesome-free-solid (1.1.2)
+  - react-native-vector-icons-ionicons (13.1.2)
   - React-NativeModulesApple (0.85.0):
     - hermes-engine
     - React-callinvoker
@@ -2095,6 +2097,8 @@ DEPENDENCIES:
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - "react-native-vector-icons-fontawesome-free-solid (from `../node_modules/@react-native-vector-icons/fontawesome-free-solid`)"
+  - "react-native-vector-icons-ionicons (from `../node_modules/@react-native-vector-icons/ionicons`)"
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-networking (from `../node_modules/react-native/ReactCommon/react/networking`)
   - React-oscompat (from `../node_modules/react-native/ReactCommon/oscompat`)
@@ -2216,6 +2220,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-vector-icons-fontawesome-free-solid:
+    :path: "../node_modules/@react-native-vector-icons/fontawesome-free-solid"
+  react-native-vector-icons-ionicons:
+    :path: "../node_modules/@react-native-vector-icons/ionicons"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-networking:
@@ -2337,6 +2345,8 @@ SPEC CHECKSUMS:
   React-Mapbuffer: 7f8bfbe3fcb2203db4ccb3975414af8cabe4bcd0
   React-microtasksnativemodule: ca1f33f7c98b76d923f550d39631eb4e05fa9aec
   react-native-safe-area-context: fb5c8ee9f6dd62ef710611b3d370c501f42a4ac0
+  react-native-vector-icons-fontawesome-free-solid: 986a29e9a6f085257141cbf2d1ff1c56a9fc424d
+  react-native-vector-icons-ionicons: 6831196cf1486bfd26b715d749c5c9a7d67bc0eb
   React-NativeModulesApple: 9c1f8815ebd72cc1c75587fe588513f6dd9cb708
   React-networking: 8f75f882c6794e91e28b458b5bc1461034098c80
   React-oscompat: 5361d0fa7905ba1c3b3c5e7c464d6be9d2d85f4b
@@ -2380,4 +2390,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 75c9ab9f1642fccac7068bbce207a99f2370d465
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.15.2
