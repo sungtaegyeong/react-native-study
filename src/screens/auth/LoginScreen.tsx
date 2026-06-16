@@ -1,6 +1,7 @@
 import CustomButton from '@/components/CustomButton';
 import InputField from '@/components/InputField';
 import useForm from '@/hooks/useForm';
+import { validationLogin } from '@/utils/validation';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -10,8 +11,8 @@ function LoginScreen() {
     initialValue: {
       email: '',
       password: '',
-      passwordConfirm: '',
     },
+    validate: validationLogin,
   });
 
   return (
@@ -20,13 +21,16 @@ function LoginScreen() {
         <InputField
           placeholder="이메일"
           touched={login.touched.email}
+          error={login.errors.email}
           {...login.getTextInputProps('email')}
         />
         <InputField
           secureTextEntry
           textContentType="oneTimeCode"
           placeholder="비밀번호"
+          maxLength={20}
           touched={login.touched.password}
+          error={login.errors.password}
           {...login.getTextInputProps('password')}
         />
       </View>
